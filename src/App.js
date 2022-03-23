@@ -3,6 +3,7 @@ import './App.css';
 import style from './App.module.css';
 import Hello from './component/Hello';
 import Welcom from './component/Welcome';
+import EventClass from './component/EventClass';
 
 function App() {
   const name = "tom";
@@ -18,8 +19,8 @@ function App() {
       <div className={style.box}>app module css</div>
       <Welcom/>
 
-      <Hello />
-      <Welcom/>
+      <EventClass/>
+
 
     </div>
   );
