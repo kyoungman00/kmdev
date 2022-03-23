@@ -1,5 +1,6 @@
 
 import './App.css';
+import style from './App.module.css';
 import Hello from './component/Hello';
 import Welcom from './component/Welcome';
 
@@ -12,8 +13,11 @@ function App() {
 
   return (
     <div className="App">
+      
       <Hello />
+      <div className={style.box}>app module css</div>
       <Welcom/>
+
       <Hello />
       <Welcom/>
 
